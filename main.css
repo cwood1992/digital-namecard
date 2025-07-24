@@ -170,7 +170,7 @@ img.profile-pic {
 .button {
 	background-color: #219653;
 	height: 48px;
-	padding-left: 24px
+	padding-left: 24px;
 	padding-right: 24px;
 	text-align: center;
 	vertical-align: middle;
@@ -178,6 +178,37 @@ img.profile-pic {
 	font-family: 'Muli', sans-serif;
 	color: white;
 	font-weight: 300;
+}
+
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  img.profile-pic {
+    height: 200px;
+    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+  }
+  
+  .text-name {
+    font-size: 28px;
+  }
+  
+  .text-title-company {
+    font-size: 16px;
+  }
+  
+  .text-detail {
+    font-size: 16px;
+  }
+  
+  .secondary-info img {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .container {
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width: 600px) {
