@@ -4,7 +4,7 @@ body {
 	width: 100%;
 	margin: 0;
 	justify-content: center;
-	font-size: 18px; /* Increased base font size */
+	font-size: 1.125rem; /* 18px base, scalable */
 }
 
 section {
@@ -143,25 +143,28 @@ img.profile-pic {
 	background-color: white;
 }
 
+
 .text-name {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #333333;
-    font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #333333;
+	font-size: 1.25rem; /* 20px */
 }
+
 
 .text-title-company {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    color: #333333;
-    font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	color: #333333;
+	font-size: 0.75rem; /* 12px */
 }
 
+
 .text-detail {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #575757;
-    font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #575757;
+	font-size: 0.75rem; /* 12px */
 }
 
 .bottom {
@@ -183,45 +186,40 @@ img.profile-pic {
 
 /* Desktop styles */
 @media screen and (min-width: 768px) {
-  img.profile-pic {
-    height: 200px;
-    width: 200px;
-    max-height: 200px;
-    max-width: 200px;
-  }
-  
-  .text-name {
-    font-size: 28px;
-  }
-  
-  .text-title-company {
-    font-size: 16px;
-  }
-  
-  .text-detail {
-    font-size: 16px;
-  }
-  
-  .secondary-info img {
-    height: 24px;
-    width: 24px;
-  }
-  
-  .container {
-    max-width: 600px;
-  }
+	img.profile-pic {
+		height: 200px;
+		width: 200px;
+		max-height: 200px;
+		max-width: 200px;
+	}
+	.text-name {
+		font-size: 1.75rem; /* 28px */
+	}
+	.text-title-company {
+		font-size: 1rem; /* 16px */
+	}
+	.text-detail {
+		font-size: 1rem; /* 16px */
+	}
+	.secondary-info img {
+		height: 24px;
+		width: 24px;
+	}
+	.container {
+		max-width: 600px;
+	}
 }
 
 
 @media screen and (max-width: 600px) {
 	html, body {
-		font-size: 20px; /* Larger base font size for mobile */
+		font-size: 1.25rem; /* 20px base for mobile */
 	}
 	.text-name {
-		font-size: 24px;
+		font-size: 1.5rem; /* 24px */
 	}
 	.text-title-company, .text-detail {
-		font-size: 16px;
+		font-size: 1rem; /* 16px */
 	}
 	img.profile-pic {
 		height: 60%;
@@ -231,13 +229,13 @@ img.profile-pic {
 
 @media screen and (max-width: 480px) {
 	html, body {
-		font-size: 22px; /* Even larger for very small screens */
+		font-size: 1.375rem; /* 22px base for very small screens */
 	}
 	.text-name {
-		font-size: 28px;
+		font-size: 1.75rem; /* 28px */
 	}
 	.text-title-company, .text-detail {
-		font-size: 18px;
+		font-size: 1.125rem; /* 18px */
 	}
 	img.profile-pic {
 		height: 80%;
